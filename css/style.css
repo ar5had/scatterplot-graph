@@ -1,0 +1,7 @@
+* {
+  font-family: "Permanent Marker", cursive;
+}
+
+.xinfo, .yinfo, .ticks {
+  fill: #111;
+}
