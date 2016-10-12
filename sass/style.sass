@@ -1,9 +1,64 @@
 $myFont: 'Permanent Marker', cursive
-$textColor: #111
+$textColor: #2a3638
+$circleColor: #99b898
 
-*
+*, h4, p
 	font-family: $myFont
-	
-.xinfo, .yinfo, .ticks
-	fill: $textColor
+	color: #73769e
+	font-size: 15px
 
+
+h4
+	margin-top: 30px
+	font-size: 25px
+	text-align: center
+
+.xinfo, .yinfo, .tick
+	fill: #dc648c
+
+.domain, .tick>line
+	stroke: #474747
+	stroke-width: 2
+
+.tick>text
+	fill: #dc648c
+
+.tick>line
+	stroke-width: 2
+
+circle
+	fill: #73769e
+
+circle:hover
+	cursor: pointer
+	fill: #dc648c
+
+body
+	background: #fefefe
+	position: relative
+
+.tooltip
+	visiblity: hidden
+	top: 0
+	z-index: 9999
+	postion: absolute
+	background: #efefef
+	height: 0
+	overflow: hidden
+	border-top: solid 3px
+	border-radius: 5px
+	box-shadow: 0px 3px 8px rgba(0,0,0,.3)
+
+// .tooltip:after
+// 	content: ''
+// 	position: relative
+// 	top: 0 
+// 	width: 30px
+// 	border-top: 3px solid 
+// 	clear: both	
+// 	top: 0
+// 	right: -130px
+	
+.tooltip>p
+	color: #dc648c
+	margin: 10px
