@@ -43,6 +43,7 @@ body {
 
 .tooltip {
   visiblity: hidden;
+  width: 170px;
   top: 0;
   z-index: 9999;
   postion: absolute;
@@ -56,5 +57,5 @@ body {
 
 .tooltip > p {
   color: #dc648c;
-  margin: 10px;
+  margin: 5px;
 }
